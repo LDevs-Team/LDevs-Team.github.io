@@ -1,6 +1,5 @@
 import { Card } from "../Card";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPalette,
   faWrench,
@@ -41,19 +40,22 @@ export default function Home() {
       </div>
       <div className="flex justify-center m-4">
         <Card
-          title="WallpaperChanger"
+          title="WallpaperChanger - soon OSS"
           description="Automatically changes windows wallpaper by chosing from a specified folder."
           icon={faPalette}
+          githubUrl="https://github.com/LDevs-Team/WallpaperChanger"
         />
         <Card
           title="DiSH"
           description="The next generation of Remote Access software, using just a Discord Bot. Its full name is DiscordSHell"
           icon={faWrench}
+          githubUrl="https://github.com/LDevs-Team/DiSH"
         />
         <Card
           title="Pak - coming soon"
           description="The upcoming revolution of package management that nobody asked for."
           icon={faBoxOpen}
+          githubUrl="https://github.com/LDevs-Team/Pak"
         />
       </div>
     </main>
