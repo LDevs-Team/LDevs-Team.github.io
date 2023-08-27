@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export function Card({icon, description, title, githubUrl}: {icon:IconDefinition, description:string, title:string, githubUrl:string}) {
   return (
-    <div className="bg-neutral-800 m-4 rounded-lg max-w-md h-40 p-5">
+    <div className="bg-material/30 m-4 rounded-lg max-w-md h-40 p-5 border-zinc-800 hover:border-sky-500 hover:border-2 border transition">
       <h2 className="flex items-center">
         <FontAwesomeIcon icon={icon} size="2xl" color="#a3a3a3" />
         <span className="m-2 font-bold text-xl">{title}</span>

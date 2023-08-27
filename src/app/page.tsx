@@ -8,7 +8,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="p-5">
+    <main className="p-5 text-neutral-200">
       <ul className="flex flex-row place-items-center">
         <Image
           className="rounded-full"
@@ -33,14 +33,14 @@ export default function Home() {
         </h1>
       </div>
 
-      <div className="grid min-w-full justify-center pt-8 mb-0 pb-0 content-center">
+      <div className="gradient-radial grid min-w-full justify-center pt-8 mb-0 pb-0 content-center">
         <h1 className="text-4xl font-semibold content-center justify-center">
           Our products
         </h1>
       </div>
       <div className="flex justify-center m-4">
         <Card
-          title="WallpaperChanger - soon OSS"
+          title="WallpaperChanger"
           description="Automatically changes windows wallpaper by chosing from a specified folder."
           icon={faPalette}
           githubUrl="https://github.com/LDevs-Team/WallpaperChanger"
@@ -52,8 +52,8 @@ export default function Home() {
           githubUrl="https://github.com/LDevs-Team/DiSH"
         />
         <Card
-          title="Pak - coming soon"
-          description="The upcoming revolution of package management that nobody asked for."
+          title="Pak"
+          description="The next generation of package managers. It offers a CLI and an embeddable package for any python program."
           icon={faBoxOpen}
           githubUrl="https://github.com/LDevs-Team/Pak"
         />
