@@ -10,7 +10,7 @@ export function Card({icon, description, title, githubUrl}: {icon:IconDefinition
       <h2 className="flex items-center">
         <FontAwesomeIcon icon={icon} size="2xl" color="#a3a3a3" />
         <span className="m-2 font-bold text-xl">{title}</span>
-        <Link className="ml-auto pr-0" href={githubUrl}><FontAwesomeIcon className="mr-auto" icon={faGithub}></FontAwesomeIcon></Link>
+        <Link className="ml-auto pr-0 cursor-default hover:scale-125 transition duration-500" href={githubUrl}><FontAwesomeIcon className="mr-auto" icon={faGithub}></FontAwesomeIcon></Link>
       </h2>
       {description}
 

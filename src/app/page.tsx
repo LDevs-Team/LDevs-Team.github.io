@@ -1,3 +1,5 @@
+"use client"
+
 import { Card } from "../Card";
 import Image from "next/image";
 import {
@@ -5,6 +7,8 @@ import {
   faWrench,
   faBoxOpen,
 } from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from "react";
+
 
 export default function Home() {
   return (
