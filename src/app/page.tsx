@@ -42,7 +42,7 @@ export default function Home() {
           Our products
         </h1>
       </div>
-      <div className="flex justify-center m-4">
+      <div className="flex justify-center fle-wrap m-4">
         <Card
           title="WallpaperChanger"
           description="Automatically changes windows wallpaper by chosing from a specified folder."
